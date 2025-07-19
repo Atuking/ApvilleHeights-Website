@@ -1,0 +1,22 @@
+name: Neon Branch Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+
+jobs:
+  preview-db-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Create or delete Neon branch
+      uses: neondatabase/create-branch-action@v4
+      with:
+        project_id: ${{ secrets.NEON_PROJECT_ID }}
+        branch_name: pr-${{ github.event.pull_request.number }}
+        parent: main
+        delete_on_close: true
+        api_key: ${{ secrets.NEON_API_KEY }}

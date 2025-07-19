@@ -70,3 +70,40 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+.cta-contact {
+  background: #2f3c7e;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
+
+.cta-contact h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-contact p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-button {
+  background: #ffba05;
+  color: #2f3c7e;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.linkedin-button {
+  background-color: #0077b5;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}

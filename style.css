@@ -26,10 +26,35 @@ nav a {
   text-decoration: none;
 }
 .hero {
-  background: #f4f4f4;
+  background: #f0f4ff;
   padding: 3rem 1rem;
   text-align: center;
+  font-size: 1.1rem;
+  color: #2f3c7e;
 }
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 1rem auto;
+  line-height: 1.6;
+}
+
+.hero button {
+  background: #ffba05;
+  color: #2f3c7e;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
 .hero button {
   background: #ffba05;
   color: #2f3c7e;

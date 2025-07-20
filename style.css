@@ -107,3 +107,30 @@ footer {
   cursor: pointer;
   margin-top: 1rem;
 }
+.about-us {
+  background: #f9f9f9;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+
+.about-us h2 {
+  color: #2f3c7e;
+  margin-bottom: 1rem;
+}
+
+.about-us p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about-us h3 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.about-us .button.linkedin {
+  min-width: auto;
+  margin: 0.5rem;
+}
